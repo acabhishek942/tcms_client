@@ -1,15 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <TCMSManagement/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TCMSManagement from './components/TCMSManagement.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    TCMSManagement
   }
 }
 </script>
@@ -23,4 +22,4 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-</style>
+</style>./components/TCMSManagement.vue
